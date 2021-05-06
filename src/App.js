@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ComponentPrueba from './component'
+import SliderComponent from './Slider';
+import RealtimeGraph from './RealtimeGraph';
 const {app} = window.require('electron').remote;
 
 class App extends Component {
@@ -17,6 +19,8 @@ class App extends Component {
           Version: {app.getVersion()}
         </p>
         <ComponentPrueba />
+        <SliderComponent />
+        <RealtimeGraph />
       </div>
     );
   }

@@ -5,12 +5,16 @@
   "version": "0.2.7",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
     "cross-env": "6.0.2",
     "electron-is-dev": "1.1.0",
     "electron-log": "^3.0.8",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "update-electron-app": "^1.2.0"
+    "update-electron-app": "^1.2.0",
+    "react-chartjs-2": "2.8.0",
+    "chartjs-plugin-streaming": "1.8.0",
+    "chart.js": "2.8.0"
   },
   "devDependencies": {
     "concurrently": "4.1.2",

@@ -18,3 +18,13 @@ An example of using create-react-app and Electron.
 
 ## Read more
 You can read more about it in [my Medium article](https://medium.com/@kitze/%EF%B8%8F-from-react-to-an-electron-app-ready-for-production-a0468ecb1da3).
+
+
+docker build -t hello-world:dev .
+
+docker run -it --rm \
+-v ${PWD}:/app \
+-v /app/node_modules \
+-p 3001:3000 \
+-e CHOKIDAR_USEPOLLING=true \
+hello-world:dev  
